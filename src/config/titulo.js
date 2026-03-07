@@ -1,1 +1,1 @@
-module.exports = 'Titulo del componente formativo'
+module.exports = 'Diagnóstico de la situación problémica en la población, organización o en la empresa agropecuaria rural'

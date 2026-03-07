@@ -1,18 +1,24 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Diagnóstico de la situación problémica en la población, organización o en la empresa agropecuaria rural.',
+    Description:
+      'El análisis de la problemática en el sector agropecuario puede abordarse, según el grado de organización, en tres niveles: primero, cuando se enfoca a una población dispersa pero más o menos definida (vereda, vocación productiva, etc.), en segundo lugar, a  una organización (como por ejemplo las del sector solidario) y finalmente a empresas agropecuarias propiamente dichas. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
+      // {
+      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      // },
+      // {
+      //   clases: ['banner-principal-decorativo-2'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      // },
+      // {
+      //   clases: ['banner-principal-decorativo-3'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      // },
     ],
   },
   menuPrincipal: {
@@ -31,27 +37,62 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Desarrollo rural y políticas agrarias en Colombia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Sistema Nacional de Innovación Agropecuaria (SNIA) ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Jerarquía de las normas en Colombia',
+            hash: '2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Sistema Nacional de Innovación Agropecuaria Ley 1876 de diciembre 27 de 2017',
+            hash: '2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Resolución 407 de octubre 30 de 2018',
+            hash: '2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Resolución 422 de 05 de julio de 2019',
+            hash: '2_4',
+          },
+          {
+            numero: '2.5',
+            titulo:
+              'Decreto 1319 de 01 de octubre 2020 - Fondo Nacional de Extensión Agropecuaria (FNEA)',
+            hash: '2_5',
+          },
+          {
+            numero: '2.6',
+            titulo:
+              'Ley 464 de 29 de diciembre 2017 - Agricultura familiar campesina y comunitaria ACFC',
+            hash: '2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Diagnóstico Rural Participativo (DRP)',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Clasificación y registro de usuarios del servicio público de extensión agropecuaria',
         desarrolloContenidos: true,
       },
     ],
@@ -73,11 +114,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -86,8 +127,9 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/733402_CF01_CFA.pdf',
       },
+
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -102,22 +144,191 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
+      referencia:
+        'Agencia de desarrollo rural, (2019). Resolución 0422 de 2019.',
+      tipo: 'Resolución ',
+      link:
+        'https://www.minagricultura.gov.co/ministerio/direcciones/Documents/Resoluci%C3%B3n%200422%20del%2005-07-2019.pdf',
+    },
+    {
+      tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
+      referencia: 'Presidencia de la república, (2020). Decreto 1319 de 2020',
+      tipo: 'Decreto',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=142845',
+    },
+    {
+      tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
+      referencia:
+        'Ministerio de agricultura y desarrollo rural, (2017). Resolución 0664 de 2017',
+      tipo: 'Resolución',
+      link:
+        'https://www.minagricultura.gov.co/Normatividad/Resoluciones/Resoluci%C3%B3n%20No%20000464%20de%202017.pdf',
+    },
+    {
+      tema: 'Diagnóstico Rural Participativo (DRP).',
+      referencia: 'Expósito, (2003) Diagnóstico rural participativo.',
+      tipo: 'Diagnóstico ',
+      link:
+        'https://www.corporacionpba.org/irp/herramientas/Etapa_I/punto_de_partida/paso2_drp/Diagnostico_Rural_Participativo.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Sector agropecuario',
+      significado:
+        'se entiende por sector agropecuario cuya actividad económica está circunscrita a los ámbitos agrícola, pecuario, forestal, acuícola y pesquero, así como la adecuación y la transformación de la producción, los servicios de apoyo asociados y la comercialización de productos primarios. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Ordenamiento productivo y social del territorio',
+      significado:
+        ' proceso de planificación participativo y multisectorial de carácter técnico, administrativo y político, que permite la armonización de los usos agropecuarios y la tenencia de la tierra rural, privilegiando el adecuado equilibrio entre la producción agropecuaria (agrícola, pecuaria, forestal, acuícola, pesquera, la adecuación y transformación de la producción), el uso eficiente del suelo, y la sostenibilidad social, ambiental y económica, orientado al logro de la competitividad sectorial. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Innovación agropecuaria',
+      significado:
+        ' introducción de productos, bienes, servicios, procesos y métodos nuevos en el ámbito productivo, de transformación o adecuación de la producción, administrativo, organizacional, financiero y crediticio, informático, de mercadeo y comercialización, que incorporen mejoras significativas en el desempeño del sector agropecuario (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Innovación abierta o colaborativa',
+      significado:
+        'se refiere al proceso de concepción y desarrollo de una innovación que ocurre en un marco de colaboración entre diversos actores o agentes, de modo que la innovación resulta altamente cohesionada con el entorno en el que se produce, y por ende cuenta con una mayor probabilidad de adopción y éxito. Además, permite reconocer los conocimientos, capacities y experiencias de los actores y agentes que intervienen en la innovación (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino:
+        'Plan Estratégico de Ciencia, Tecnología e Innovación Agropecuaria (PECTIA)',
+      significado:
+        ' herramienta de planificación que define los objetivos estratégicos, estrategias y líneas de acción en materia de ciencia, tecnología e innovación sectorial para aumentar la competitividad, sostenibilidad y el mejoramiento de las condiciones de vida de la población. Se formula para un período de 10 años. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino:
+        'Agenda Dinámica Nacional de Investigación, Desarrollo Tecnológico e Innovación Agropecuaria (Agenda I+D+i)',
+      significado:
+        ' instrumento de planificación y gestión para la focalización de recursos y de acciones de I+D+i tendientes al fortalecimiento, dinamización y optimización del SNIA en torno al mejoramiento de la productividad y competitividad sectorial. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Plataforma Siembra',
+      significado:
+        ' es el aplicativo electrónico del Ministerio de Agricultura y Desarrollo Rural destinado a la recopilación, gestión, divulgación y seguimiento de la información de los proyectos, resultados, avances y oferta tecnológica sectorial originada en el Sistema Nacional de Innovación Agropecuaria (SNIA). (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Comunidad Linkata',
+      significado:
+        'comunidad temática dirigida a gestionar, divulgar y transferir conocimiento y tecnologías agropecuarias, con el fin de dinamizar y potenciar el relacionamiento entre los resultados del sector generador de I+D y los prestadores de servicios de asistencia técnica, asesoramiento, consultoría y extensión agropecuaria. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Sistemas Territoriales de Innovación Agropecuaria',
+      significado:
+        ' los Sistemas Territoriales de Innovación (STI) son entendidos como sistemas complejos que favorecen y consolidan relaciones entre diferentes grupos de actores tanto públicos como privados, que articulados en redes de conocimiento tienen el propósito de incrementar y mejorar las capacidades de aprendizaje, gestión de conocimiento agropecuario e innovación abierta que emergen en un territorio particular establecido a partir del reconocimiento de interacciones específicas entre sus dimensiones biofísicas, culturales, institucionales, socioeconómicas, entre otras. Los STI son espacios prácticos en los cuales los procesos de investigación, formación de capacidades, de aprendizaje interactivo, así como de transferencia de tecnología y extensión, establecen dinámicas conjuntas de articulación institucional que concretan, impulsan y consolidan los procesos de ciencia, tecnología e innovación en los territorios. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Redes de innovación',
+      significado:
+        ' conjunto de actores que interactúan a través del intercambio de conocimientos con el fin de compartir información, conceptos, aplicaciones, metodologías, experiencias y prácticas de trabajo (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Plan Departamental de Extensión Agropecuaria (PDEA)',
+      significado:
+        ' instrumento de planificación cuatrienal que define los elementos estratégicos, operativos y financieros para la prestación del servicio público de extensión agropecuaria en el área de influencia de un departamento y sus municipios. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Extensión Agropecuaria',
+      significado:
+        'proceso de acompañamiento mediante el cual se gestiona el desarrollo de capacidades de los productores agropecuarios, su articulación con el entorno y el acceso al conocimiento, tecnologías, productos y servicios de apoyo; con el fin de hacer competitiva y sostenible su producción al tiempo que contribuye a la mejora de la calidad de vida familiar. Por lo tanto, la extensión agropecuaria facilita la gestión de conocimiento, el diagnóstico y la solución de problemas, en los niveles de la producción primaria, la poscosecha, y la comercialización; el intercambio de experiencias y la construcción de capacidades individuales, colectivas y sociales. Para tal efecto, la extensión agropecuaria desarrollará actividades vinculadas a promover el cambio técnico en los diferentes eslabones que constituyen la cadena productiva, la asesoría y acompañamientos a productores en acceso al crédito, formalización de la property, certificación en BPA, entre otros (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Ruralidad',
+      significado:
+        ' es el conjunto de interacciones sociales, económicas y culturales que se surten en espacios de baja e intermedia densidad poblacional y cuyas actividades económicas preponderantes están estrechamente relacionadas con el medio natural y sus encadenamientos productivos. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino:
+        'Parques Científicos, Tecnológicos y de Innovación Agropecuarios (PCTIA)',
+      significado:
+        'zonas geográficas especiales destinadas a promover la innovación agropecuaria basada en el conocimiento científico y tecnológico y a contribuir a la productividad empresarial y la competitividad regional. (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
+    },
+    {
+      termino: 'Organización Comunitaria',
+      significado:
+        'todos aquellos productores agropecuarios organizados de forma asociativa, cooperativa, solidaria u otras formas de organización (Congreso de Colombia. (2017). Ley 1876 del 29 de diciembre).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arango, R. M., (1987). Esquema de políticas de reforma agraria en Colombia. Lecturas de Economía, No.23, p. 197-220.',
+      link:
+        'https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/7778/7344',
+    },
+    {
+      referencia:
+        'Centro Nacional de Memoria Histórica (2013). La política de reforma agraria y tierras en Colombia. Esbozo de una memoria institucional.',
+      link:
+        'https://www.centrodememoriahistorica.gov.co/descargas/informes2013/agraria/politica-agraria-tierras.pdf',
+    },
+    {
+      referencia:
+        'Decreto 1319 de 2020. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se se adiciona el Título 5 de la Parte 1 del Libro 2 del Decreto 1071 de 2015, Decreto Único del Sector Administrativo Agropecuario, Pesquero y de Desarrollo Rural, relacionado con el Fondo Nacional de Extensión Agropecuaria FNEA. Octubre 1 de 2020.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=142845',
+    },
+    {
+      referencia:
+        'Expósito V,M, 1999. Diagnóstico Rural Participativo, una guía práctica. Santo Domingo. Centro Cultural Poveda.',
+      link:
+        'https://biblioteca-repositorio.clacso.edu.ar/xmlui/bitstream/handle/CLACSO/7543/diagrural.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Fernández L., M. I. Fernández e I. Soloaga, “Enfoque territorial y análisis dinámico de la ruralidad: alcances y límites para el diseño de políticas de desarrollo rural innovadoras en América Latina y el Caribe”, Documentos de Proyectos (LC/TS.2019/65, LC/MEX/TS.2019/16), Ciudad de México, Comisión Económica para América Latina y el Caribe (CEPAL), 2019. ',
+      link:
+        'https://repositorio.cepal.org/server/api/core/bitstreams/8a34171e-fe47-468f-afff-3404b329ad1f/content',
+    },
+    {
+      referencia:
+        'Ley 1876 de 2017. Por la cual se crea el Sistema Nacional de Innovación Agropecuaria y se dictan otras disposiciones. Diciembre 29 de 2017. DO. N° 50.461.',
+      link:
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/30034416',
+    },
+    {
+      referencia:
+        'Machado, A. 2009. La Reforma rural, una deuda social y política. Universidad Nacional de Colombia. Ministerio de Agricultura y Desarrollo Rural Agencia de Desarrollo Rural - ADR, 2019. Clasificación y Registro de Usuarios del Servicio Público de Extensión Agropecuaria, 2018.',
+      link:
+        'https://fce.unal.edu.co/media/files/CentroEditorial/catalogo/Libros_Digitalizados/O_reforma-rural.pdf',
+    },
+    {
+      referencia:
+        'Resolución 407 de 2018. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se reglamenta las materias técnicas del Sistema Nacional de Innovación Agropecuaria - SNIA. Octubre 30 de 2018.',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=154584&dt=S',
+    },
+    {
+      referencia:
+        'Resolución 422 de 2019. [Agencia de Desarrollo Rural]. Por la cual se reglamenta el artículo 33 de la Ley 187 de 2017. Julio 5 de 2019.',
+      link:
+        'https://www.minagricultura.gov.co/ministerio/direcciones/Documents/Resoluci%C3%B3n 0422 del 05-07-2019.pdf',
+    },
+    {
+      referencia:
+        'Resolución 464 de 2017. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se adoptan los lineamientos estratégicos de la política pública para la Agricultura Campesina, Familiar y Comunitaria. Diciembre 29 de 2017.',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/35667/Ver_Documento_35667.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Sierra, P. H. (1998). Concepto y tipos de ley en la constitución colombiana. Universidad Externado de Colombia.',
+    },
+    {
+      referencia:
+        'Berry, A. 2002. ¿Colombia encontró por fin una reforma agraria que funcione?. Revista de Economía Institucional. 4, 6 (feb. 2002), 24–70.',
+      link:
+        'https://revistas.uexternado.edu.co/index.php/ecoins/article/view/240/224 ',
+    },
+    {
+      referencia: 'Congreso de Colombia, 2017. Ley 1876 del 29 de Diciembre.',
+      link:
+        'https://www.mineducacion.gov.co/portal/normativa/Leyes/381683:Ley-1876-dediciembre-29-de-2017',
     },
   ],
   creditos: [
@@ -125,14 +336,16 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -140,9 +353,49 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Roberto Augusto Bernal Duque',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+
+        {
+          nombre: 'Yeison Farid Méndez Ortiz',
+          cargo: 'Experto temático',
+          centro: 'Centro Agropecuario “La Granja” – Regional Tolima.',
+        },
+        {
+          nombre: 'Orlando Barón Méndez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia  Hoyos Sepúlveda',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de diseño y Metrología – Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+        },
+        {
+          nombre: 'Fabian Cuartas Donado',
+          cargo: 'Evaluador Instruccional',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -150,19 +403,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Eulises Orduz Amezquita',
+          cargo: 'Actividad Didáctica',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -170,14 +438,29 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validación de recursos digitales',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validación de recursos digitales ',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
