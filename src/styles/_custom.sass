@@ -44,25 +44,47 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
-.fnd-1.bloque-texto-f.color-secundario:before
+.fnd-4.bloque-texto-f:before
+  background-color: #FFFAED !important
+.fnd-4
+  .bloque-texto-f__comillas i
+    color: $color-acento-botones !important
+.fnd-4-
+  .bloque-texto-f__comillas i
+    color: $color-acento-botones !important
+
+.fnd-99.bloque-texto-f:before
+  background-color: #EBF4FD !important
+.fnd-99
+  .bloque-texto-f__comillas i
+    color: $color-acento-botones !important
+.fnd-99-
+  .bloque-texto-f__comillas i
+    color: $color-acento-botones !important
+
+.fnd-1.bloque-texto-f:before
   background-color: #EBF4FD !important
 .fnd-1
   .bloque-texto-f__comillas i
-    color: $color-secundario
+    color: #ADECD1 !important
 .fnd-1-
   .bloque-texto-f__comillas i
-    color: $color-acento-botones
+    color: #ADECD1 !important
 .fnd-2
   background-color: $color-primario
   p
     color: #12263F !important
-.fnd-3.bloque-texto-f.color-primario:before
-  background-color: $color-primario
+.fnd-3.bloque-texto-f:before
+  background-color: $color-primario !important
 .fnd-3
   .bloque-texto-f__comillas i
-    color: $color-secundario
-.fnd-4
-  background-color: #43C0FF !important
+    color: $color-acento-contenido !important
+
+.bloque-texto-f.bg-color-6:before
+  background-color: #D8E9FB !important
+.bloque-texto-f.bg-color-5:before
+  background-color: #EBF4FD !important
+
 .fnd-5
   background-color: #E4FBF2 !important
 .fnd-6
@@ -98,7 +120,6 @@ figcaption
 
 .fnd-9
   background: url('../assets/curso/temas/tema2/img44.png')
-  background-position: center
   background-size: cover
   background-repeat: no-repeat
   padding: 2rem
@@ -113,7 +134,6 @@ figcaption
     text-align: center
 .fnd-11
   background: url('../assets/curso/temas/tema2/img45.png')
-  background-position: center
   background-size: cover
   background-repeat: no-repeat
   padding: 2rem
@@ -141,7 +161,7 @@ figcaption
     width: 100%
     height: 100%
     transform: translateY(-50%)
-    border-radius: 15px
+    border-radius: 20px
     z-index: -1
     background-repeat: no-repeat
     background-image: url(../assets/curso/temas/tema2/img47.svg)
@@ -155,7 +175,6 @@ figcaption
       transform: translateY(-50%)
       border-radius: 15px
       background-repeat: no-repeat
-      background-color: #01756200
   @media (min-width: 992px) and (max-width: 1200px)
     &::before
       top: 50%
@@ -164,16 +183,20 @@ figcaption
       height: 100%
       transform: translate(-33%, -50%)
       background-color: #01756200
+
+  @media screen and (max-width: $bp-max-sm)
+    background-color: #E2F3F8
+
 .fnd-14
   background: url('../assets/curso/temas/tema2/fnd-5.svg')
   background-size: cover
   background-repeat: no-repeat
 .tt
-  background-color: #E4FBF2
+  background-color: #F6FCFA
   padding: 1rem
   border-radius: 20px 0 20px 0
   h1
-    color: #02DD84
+    color: #78A492
     font-size: 2.3em
 
 .tx-1
@@ -221,7 +244,7 @@ figcaption
   background-size: cover
   background-repeat: no-repeat
   padding: 2rem
-
+  background-color: #E2F3F8
 .img-14
   border: 6px solid #A0C9F6
   border-radius: 1rem
@@ -494,13 +517,13 @@ figcaption
     padding: 20px
     border-radius: 1rem
     margin-top: 1rem
-    background-color: #017662
+    // background-color: #017662
     p
       color: #fff
   .fl-box4
     background-color: #017662
   .b-img2
-    display: none
+    // display: none
   // .fl-box3
 
   @media (min-width: 992px)
@@ -619,7 +642,13 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
     color: #fff
     padding: 20px
     margin-top: 1rem
-    background-color: #017B65
+    // background-color: #ff0000
+
+    @media screen and (max-width: $bp-max-md)
+      background-image: url("../assets/curso/temas/tema2/img45.svg") !important
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/temas/tema2/img45.svg") !important
+
     p
       color: #ffffff
   .b-img3
@@ -699,7 +728,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
   background-color: #01927F
 
 .fnd-i
-  // background-image: url(../assets/curso/temas/tema1/fnd-1.jpg)
+  background-image: url(../assets/curso/temas/tema1/fnd-1.png)
   background-repeat: no-repeat
   background-position: bottom center
   background-size: auto
@@ -794,6 +823,40 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
 .tarjeta-numerada__numero
   top: 5px !important
 
+.crd-custom
+  background-image: url(../assets/curso/temas/tema2/img47.svg)
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 0px
+  padding: 50px 120px !important
+  p
+    font-weight: bold
+  @media (max-width: $bp-max-lg)
+    background-size: cover
+    padding: 40px 60px !important
+  @media (max-width: $bp-max-md)
+    padding: 30px 20px !important
+    p
+      font-size: 0.9em
+
+.crd-custom-01
+  background-image: url(../assets/curso/temas/tema2/img01.svg)
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 0px
+  padding: 50px 120px !important
+  p
+    font-weight: bold
+  @media (max-width: $bp-max-lg)
+    background-size: cover
+    padding: 40px 60px !important
+  @media (max-width: $bp-max-md)
+    padding: 30px 20px !important
+    p
+      font-size: 0.9em
+
 //posicion pantalla//
 .posit
   z-index: 1
@@ -821,6 +884,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
   &_8
     top: 50px
 
+  // Colores
 .bg-color-10
   background-color: #BCEFEA
 
@@ -832,6 +896,18 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
 
 .bg-color-3
   background-color: #F6FCFA
+
+.bg-color-4
+  background-color: #FFEEBD
+
+.bg-color-5
+  background-color: #EBF4FD
+
+.bg-color-6
+  background-color: #D8E9FB
+.bg-color-7
+  background-color: #FFEEBD
+  border-radius: 20px
 
 .img90
   max-width: 90px !important
@@ -858,3 +934,23 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
 
 .custom-mh
   height: -webkit-fill-available
+
+.bg-full-width
+  margin: 0 -3em
+  padding: 0 3rem
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 3rem
+    padding-right: 3rem
+
+.bg-fondo-2
+  background-image: url("../assets/curso/temas/tema1/fnd-1.png") !important
+  background-position: bottom
+  background-size: cover
+
+.img65
+  @media screen and (max-width: $bp-max-sm)
+    width: 100px
+    margin: 0px auto
