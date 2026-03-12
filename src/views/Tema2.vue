@@ -47,7 +47,7 @@
               p.ms-5.mb-0 <b>Reglamento:</b> norma jurídica que busca hacer posible que la ley se cumpla para que no quede en el papel, y detallar las leyes en su contenido para adaptarlas al medio económico, político y social que regula. Ejemplo: decretos, resoluciones, ordenanzas, acuerdos, sentencias, actos jurídicos de derecho privado, etc. (Sierra, 1988).
          
     .row.justify-content-center.align-items-center
-      .col-lg-12
+      .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Jerarquía de las normas en Colombia.
@@ -290,9 +290,9 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span Enfoque de extensión agropecuaria desglosado en los cinco aspectos y sus respectivos componentes
+        //- .titulo-sexto.color-acento-contenido
+        //-   h5 Figura 4.
+        //-   span Enfoque de extensión agropecuaria desglosado en los cinco aspectos y sus respectivos componentes
         .bg-full-width.row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
           .col-lg-12.fnd-9
             .row.justify-content-center.align-items-center
@@ -440,7 +440,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/tema2/img33.png', alt='')
 
-      .col-lg-9
+      .col-lg-9.col-md-12.mb-4.mb-lg-2
                   
         //- Subtitulo
         .align-items-center.justify-content-star.mb-2
@@ -459,13 +459,13 @@
               
         p.mb-4 En este ítem las entidades deben demostrar, mediante documento idóneo, que cuentan con vínculos vigentes, tales como contratos, convenios, alianzas y/o acuerdos, con entidades de educación, de formación y/o de capacitación en el sector agropecuario, o con centros de investigación y de desarrollo tecnológico, que en general adelanten actividades de ciencia, tecnología e innovación del sector agropecuario. 
                    
-        //- Subtitulo
-        .align-items-center.justify-content-star.mb-2
-          .div(data-aos="fade-left")
-            h3.subtitle.position-relative Capacidad Financiera 
-              img.image(src='@/assets/curso/temas/tema2/icon_subt.svg', alt='Imagen decorativa')
-              
-      p.mb-4 Las entidades deben acreditar la siguiente capacidad financiera: 1. Índice de Liquidez mayor o igual a 1.00 veces. (Activo Corriente / Pasivo Corriente); 2. Índice de endeudamiento menor o igual al 75.00%. (Pasivo Total / Activo Total).
+      //- Subtitulo
+      .align-items-center.justify-content-star.mb-2
+        .div(data-aos="fade-left")
+          h3.subtitle.position-relative Capacidad Financiera 
+            img.image(src='@/assets/curso/temas/tema2/icon_subt.svg', alt='Imagen decorativa')
+            
+      p.mb-5 Las entidades deben acreditar la siguiente capacidad financiera: 1. Índice de Liquidez mayor o igual a 1.00 veces. (Activo Corriente / Pasivo Corriente); 2. Índice de endeudamiento menor o igual al 75.00%. (Pasivo Total / Activo Total).
     
       //- Subtitulo
       .align-items-center.justify-content-star.mb-2

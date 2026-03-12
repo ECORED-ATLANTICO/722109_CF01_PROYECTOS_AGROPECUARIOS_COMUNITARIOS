@@ -49,7 +49,7 @@
      
     p.mb-5 Bejarano concluye que la gran peculiaridad de todo este proceso del caso colombiano es la apertura del mercado interior, no a través de la formación de una clase trabajadora asalariada, sino por el surgimiento y  consolidación de los productores cafeteros basados en la pequeña propiedad. La industrialización, por ende, se ve obstaculizada para penetrar al campo (Machado, 1997). Esta época está marcada por cientos de confrontaciones y una aguda violencia entre colonos y terratenientes. 
 
-    .container.mb-5.mb-lg-4
+    .container.mb-5.mb-lg-5
       .row.justify-content-center.align-items-center.bg-color-7(data-aos="fade-left", style="border-radius: 15px")
         .col-lg-8.bg-color-7.p-4
           p.mb-3 En vista de este obstáculo, la “revolución en marcha” de López Pumarejo (presidente de Colombia 1934-1938 y 1942-1945) logra generar las condiciones para la industrialización del campo sin realizar una reforma agraria redistributiva, que era la demanda del movimiento campesino entonces como ahora las reformas son bien conocidas y básicamente tratan dos puntos: el impulso para el uso productivo de las tierras y la formalización de terrenos baldíos y el fomento de las actividades agropecuarias a través de préstamos y acceso a tierras por contrato. 
@@ -59,10 +59,11 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-14.png' alt='Background Image', style="border-radius: 0 10px 10px 0; background-size: cover")
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-md-12.col-lg-10.col-xl-10
-        .tarjeta.crd-custom.p-4.p-md-5(data-aos="zoom-in")
-          p.mb-0 La agudización de los conflictos entre los partidos recién institucionalizados (liberal y conservador) se suma a los conflictos por la posesión de tierras y retroalimenta una crisis que acosa la ruralidad desde el siglo XIX y que aún se encuentra vigente respecto a la tenencia de la tierra y el acceso a los factores productivos. Este primer lapsus del desarrollo agrario en Colombia, se caracteriza pues, por el fomento a la colonización mediante la adjudicación de baldíos, más bien al final de un período con guerras civiles políticas y una guerra con tintes sociales que fue la guerra de los mil días (Arango, 1987). 
+        .grad1.p-4.align-items-center.justify-content-center
+          .col-11.mx-auto
+            p.mb-0.text-bold La agudización de los conflictos entre los partidos recién institucionalizados (liberal y conservador) se suma a los conflictos por la posesión de tierras y retroalimenta una crisis que acosa la ruralidad desde el siglo XIX y que aún se encuentra vigente respecto a la tenencia de la tierra y el acceso a los factores productivos. Este primer lapsus del desarrollo agrario en Colombia, se caracteriza pues, por el fomento a la colonización mediante la adjudicación de baldíos, más bien al final de un período con guerras civiles políticas y una guerra con tintes sociales que fue la guerra de los mil días (Arango, 1987). 
 
     .bg-full-width.bg-fondo-2
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in")

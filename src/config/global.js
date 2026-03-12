@@ -146,14 +146,15 @@ export default {
     {
       tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
       referencia:
-        'Agencia de desarrollo rural, (2019). Resolución 0422 de 2019.',
+        'Agencia de desarrollo rural, (2019). <em>Resolución 0422 de 2019</em>.',
       tipo: 'Resolución ',
       link:
         'https://www.minagricultura.gov.co/ministerio/direcciones/Documents/Resoluci%C3%B3n%200422%20del%2005-07-2019.pdf',
     },
     {
       tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
-      referencia: 'Presidencia de la república, (2020). Decreto 1319 de 2020',
+      referencia:
+        'Presidencia de la república, (2020). <em>Decreto 1319 de 2020</em>',
       tipo: 'Decreto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=142845',
@@ -161,14 +162,14 @@ export default {
     {
       tema: 'Sistema Nacional de Innovación Agropecuaria (SNIA).',
       referencia:
-        'Ministerio de agricultura y desarrollo rural, (2017). Resolución 0664 de 2017',
+        'Ministerio de agricultura y desarrollo rural, (2017). <em>Resolución 0664 de 2017</em>',
       tipo: 'Resolución',
       link:
         'https://www.minagricultura.gov.co/Normatividad/Resoluciones/Resoluci%C3%B3n%20No%20000464%20de%202017.pdf',
     },
     {
       tema: 'Diagnóstico Rural Participativo (DRP).',
-      referencia: 'Expósito, (2003) Diagnóstico rural participativo.',
+      referencia: 'Expósito, (2003) <em>Diagnóstico rural participativo</em>.',
       tipo: 'Diagnóstico ',
       link:
         'https://www.corporacionpba.org/irp/herramientas/Etapa_I/punto_de_partida/paso2_drp/Diagnostico_Rural_Participativo.pdf',
@@ -257,76 +258,77 @@ export default {
   referencias: [
     {
       referencia:
-        'Arango, R. M., (1987). Esquema de políticas de reforma agraria en Colombia. Lecturas de Economía, No.23, p. 197-220.',
+        'Arango, R. M., (1987). <em>Esquema de políticas de reforma agraria en Colombia</em>. Lecturas de Economía, No.23, p. 197-220.',
       link:
         'https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/7778/7344',
     },
     {
       referencia:
-        'Centro Nacional de Memoria Histórica (2013). La política de reforma agraria y tierras en Colombia. Esbozo de una memoria institucional.',
+        'Centro Nacional de Memoria Histórica (2013). <em>La política de reforma agraria y tierras en Colombia. Esbozo de una memoria institucional</em>.',
       link:
         'https://www.centrodememoriahistorica.gov.co/descargas/informes2013/agraria/politica-agraria-tierras.pdf',
     },
     {
       referencia:
-        'Decreto 1319 de 2020. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se se adiciona el Título 5 de la Parte 1 del Libro 2 del Decreto 1071 de 2015, Decreto Único del Sector Administrativo Agropecuario, Pesquero y de Desarrollo Rural, relacionado con el Fondo Nacional de Extensión Agropecuaria FNEA. Octubre 1 de 2020.',
+        'Decreto 1319 de 2020. [Ministerio de Agricultura y Desarrollo Rural]. <em>Por la cual se se adiciona el Título 5 de la Parte 1 del Libro 2 del Decreto 1071 de 2015, Decreto Único del Sector Administrativo Agropecuario, Pesquero y de Desarrollo Rural, relacionado con el Fondo Nacional de Extensión Agropecuaria FNEA</em>. Octubre 1 de 2020.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=142845',
     },
     {
       referencia:
-        'Expósito V,M, 1999. Diagnóstico Rural Participativo, una guía práctica. Santo Domingo. Centro Cultural Poveda.',
+        'Expósito V,M, 1999. <em>Diagnóstico Rural Participativo, una guía práctica</em>. Santo Domingo. Centro Cultural Poveda.',
       link:
         'https://biblioteca-repositorio.clacso.edu.ar/xmlui/bitstream/handle/CLACSO/7543/diagrural.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Fernández L., M. I. Fernández e I. Soloaga, “Enfoque territorial y análisis dinámico de la ruralidad: alcances y límites para el diseño de políticas de desarrollo rural innovadoras en América Latina y el Caribe”, Documentos de Proyectos (LC/TS.2019/65, LC/MEX/TS.2019/16), Ciudad de México, Comisión Económica para América Latina y el Caribe (CEPAL), 2019. ',
+        'Fernández L., M. I. Fernández e I. Soloaga, “<em>Enfoque territorial y análisis dinámico de la ruralidad: alcances y límites para el diseño de políticas de desarrollo rural innovadoras en América Latina y el Caribe</em>”, Documentos de Proyectos (LC/TS.2019/65, LC/MEX/TS.2019/16), Ciudad de México, Comisión Económica para América Latina y el Caribe (CEPAL), 2019. ',
       link:
         'https://repositorio.cepal.org/server/api/core/bitstreams/8a34171e-fe47-468f-afff-3404b329ad1f/content',
     },
     {
       referencia:
-        'Ley 1876 de 2017. Por la cual se crea el Sistema Nacional de Innovación Agropecuaria y se dictan otras disposiciones. Diciembre 29 de 2017. DO. N° 50.461.',
+        'Ley 1876 de 2017. <em>Por la cual se crea el Sistema Nacional de Innovación Agropecuaria y se dictan otras disposiciones</em>. Diciembre 29 de 2017. DO. N° 50.461.',
       link:
         'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/30034416',
     },
     {
       referencia:
-        'Machado, A. 2009. La Reforma rural, una deuda social y política. Universidad Nacional de Colombia. Ministerio de Agricultura y Desarrollo Rural Agencia de Desarrollo Rural - ADR, 2019. Clasificación y Registro de Usuarios del Servicio Público de Extensión Agropecuaria, 2018.',
+        'Machado, A. 2009. <em>La Reforma rural, una deuda social y política</em>. Universidad Nacional de Colombia. Ministerio de Agricultura y Desarrollo Rural Agencia de Desarrollo Rural - ADR, 2019. Clasificación y Registro de Usuarios del Servicio Público de Extensión Agropecuaria, 2018.',
       link:
         'https://fce.unal.edu.co/media/files/CentroEditorial/catalogo/Libros_Digitalizados/O_reforma-rural.pdf',
     },
     {
       referencia:
-        'Resolución 407 de 2018. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se reglamenta las materias técnicas del Sistema Nacional de Innovación Agropecuaria - SNIA. Octubre 30 de 2018.',
+        'Resolución 407 de 2018. [Ministerio de Agricultura y Desarrollo Rural]. <em>Por la cual se reglamenta las materias técnicas del Sistema Nacional de Innovación Agropecuaria - SNIA</em>. Octubre 30 de 2018.',
       link:
         'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=154584&dt=S',
     },
     {
       referencia:
-        'Resolución 422 de 2019. [Agencia de Desarrollo Rural]. Por la cual se reglamenta el artículo 33 de la Ley 187 de 2017. Julio 5 de 2019.',
+        'Resolución 422 de 2019. [Agencia de Desarrollo Rural]. <em>Por la cual se reglamenta el artículo 33 de la Ley 187 de 2017</em>. Julio 5 de 2019.',
       link:
         'https://www.minagricultura.gov.co/ministerio/direcciones/Documents/Resoluci%C3%B3n 0422 del 05-07-2019.pdf',
     },
     {
       referencia:
-        'Resolución 464 de 2017. [Ministerio de Agricultura y Desarrollo Rural]. Por la cual se adoptan los lineamientos estratégicos de la política pública para la Agricultura Campesina, Familiar y Comunitaria. Diciembre 29 de 2017.',
+        'Resolución 464 de 2017. [Ministerio de Agricultura y Desarrollo Rural]. <em>Por la cual se adoptan los lineamientos estratégicos de la política pública para la Agricultura Campesina, Familiar y Comunitaria</em>. Diciembre 29 de 2017.',
       link:
         'https://repository.agrosavia.co/bitstream/handle/20.500.12324/35667/Ver_Documento_35667.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Sierra, P. H. (1998). Concepto y tipos de ley en la constitución colombiana. Universidad Externado de Colombia.',
+        'Sierra, P. H. (1998). <em>Concepto y tipos de ley en la constitución colombiana</em>. Universidad Externado de Colombia.',
     },
     {
       referencia:
-        'Berry, A. 2002. ¿Colombia encontró por fin una reforma agraria que funcione?. Revista de Economía Institucional. 4, 6 (feb. 2002), 24–70.',
+        'Berry, A. 2002. <em>¿Colombia encontró por fin una reforma agraria que funcione?</em>. Revista de Economía Institucional. 4, 6 (feb. 2002), 24–70.',
       link:
         'https://revistas.uexternado.edu.co/index.php/ecoins/article/view/240/224 ',
     },
     {
-      referencia: 'Congreso de Colombia, 2017. Ley 1876 del 29 de Diciembre.',
+      referencia:
+        'Congreso de Colombia, 2017. <em>Ley 1876 del 29 de Diciembre</em>.',
       link:
         'https://www.mineducacion.gov.co/portal/normativa/Leyes/381683:Ley-1876-dediciembre-29-de-2017',
     },
