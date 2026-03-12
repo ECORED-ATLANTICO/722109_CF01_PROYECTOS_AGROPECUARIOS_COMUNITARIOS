@@ -217,8 +217,8 @@
           .col-lg-12
             figure.mb-5
             
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img18.svg', alt='Normatividad del sector agropecuario en Colombia')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema2/img19.svg', alt='Normatividad del sector agropecuario en Colombia')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img19.png', alt='Actores en el marco de formulación de los PDEA')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema2/img18.png', alt='Actores en el marco de formulación de los PDEA')
               figcaption Secretarios de Cadenas Pecuarias Ministerio de Agricultura
               
           
