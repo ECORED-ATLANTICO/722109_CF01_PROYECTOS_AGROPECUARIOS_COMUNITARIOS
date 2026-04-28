@@ -127,7 +127,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/733402_CF01_DU.zip',
+        download: 'downloads/CFA1_722109_DU.pdf',
       },
 
       {
@@ -338,16 +338,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de línea de producción',
-          centro:
-            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+          cargo: 'Responsable de la línea de producción',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -357,35 +355,27 @@ export default {
         {
           nombre: 'Roberto Augusto Bernal Duque',
           cargo: 'Experto temático',
-          centro:
-            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+          centro: 'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
-
         {
           nombre: 'Yeison Farid Méndez Ortiz',
           cargo: 'Experto temático',
-          centro: 'Centro Agropecuario “La Granja” – Regional Tolima.',
+          centro: 'Centro Agropecuario “La Granja” – Regional Tolima',
         },
         {
           nombre: 'Orlando Barón Méndez',
           cargo: 'Experto temático',
-          centro:
-            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+          centro: 'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
         },
         {
-          nombre: 'Sandra Patricia  Hoyos Sepúlveda',
-          cargo: 'Diseñadora Instruccional',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro para la Industria de la Comunicación Gráfica',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de diseño y Metrología – Regional Distrito Capital ',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -395,7 +385,7 @@ export default {
         },
         {
           nombre: 'Fabian Cuartas Donado',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluador instruccional',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -405,34 +395,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Diseñador web',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <em>full stack</em>',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          cargo: 'Desarrollo full stack',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Eulises Orduz Amezquita',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
-        },
-        {
-          nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -440,29 +420,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Laura Daniela Burgos Rueda',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Luz Karime Amaya',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Juan Carlos Cardona Acosta',
-          cargo: 'Validación de recursos digitales',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
-
         {
-          nombre: 'Jairo Luis Valencia Ebratt',
-          cargo: 'Validación de recursos digitales ',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
