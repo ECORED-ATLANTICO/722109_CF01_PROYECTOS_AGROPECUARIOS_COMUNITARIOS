@@ -339,7 +339,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -355,7 +356,8 @@ export default {
         {
           nombre: 'Roberto Augusto Bernal Duque',
           cargo: 'Experto temático',
-          centro: 'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
         {
           nombre: 'Yeison Farid Méndez Ortiz',
@@ -365,7 +367,8 @@ export default {
         {
           nombre: 'Orlando Barón Méndez',
           cargo: 'Experto temático',
-          centro: 'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
